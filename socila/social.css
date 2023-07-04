@@ -1,0 +1,760 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.site-header {
+    width: 100%;
+    height: 15vh;
+    background-color: white;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.nav-brand {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-brand img {
+    width: 200px;
+}
+
+.site-menu-main {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.site-menu-main li {
+
+    list-style: none;
+}
+
+.site-menu-main li a {
+    font-size: 20px;
+    color: #262729;
+    text-decoration: none;
+
+}
+
+.header-btn {
+    padding: 15px;
+    background-color: #FF0000;
+    border-radius: 30px;
+
+}
+
+.header-btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.nav-brand i {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+.vertical-header {
+  display: none;
+  position: fixed;
+  top: 10;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  z-index: 999;
+  
+
+}
+
+.vertical-header ul {
+  list-style: none;
+  padding: 30px;
+  width: 100%;
+ border-top: 1px solid;
+ 
+  
+}
+
+.vertical-header ul li {
+  margin-bottom: 5px;
+  padding-bottom: 80px;
+
+
+
+
+}
+.vertical-header ul li a{
+  color: #262729;
+  font-size: 16px;
+  text-decoration: none ;
+ 
+}
+
+.fa-xmark{
+position: absolute;
+top: 10px;
+right: 10px;
+border-left: 1px solid;
+
+font-size: 40px;
+
+}
+
+@media (max-width: 900px) {
+  .nav-brand i {
+    display: block;
+  }
+
+  .site-menu-main {
+    display: none;
+  }
+
+  .vertical-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .vertical-header ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header-btn{
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cardMenu {
+    background-image: url(../assets/slider-aski.jpeg);
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+}
+
+
+.contentBoydMenu {
+    display: block;
+    padding-top: 300px;
+    padding-left: 30px;
+}
+
+.slider-baslik {
+    font-size: 46px;
+    color: #fff;
+    width: 550px;
+}
+
+.slider-aciklama {
+    font-size: 18px;
+    color: #FFFFFFB3;
+}
+
+.welcome-btn-group--l3 {
+    display: flex;
+    gap: 20px;
+    padding-top: 15px;
+
+}
+
+.welcome-btn-group--l3 a {
+    padding: 20px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 30px;
+    background-color: red;
+}
+
+.row {
+    display: flex;
+    margin-top: 20px;
+    gap: 30px;
+
+
+
+}
+
+.kac-yemek-yenildi {
+    border-left: 1px solid #fff;
+    padding-left: 20px;
+}
+
+.counterCardText {
+    font-size: 42px;
+    color: #fff;
+}
+
+.counter-content__text {
+    margin-top: 5px;
+    color: #FFFFFFB3;
+    font-size: 18px;
+
+}
+
+
+@media (max-width: 900px) {
+  .contentBoydMenu {
+      padding-top: 150px;
+      padding-left: 15px;
+  }
+
+  .slider-baslik {
+      font-size: 32px;
+      width: 100%;
+  }
+
+  .welcome-btn-group--l3 {
+      flex-direction: column;
+  }
+
+  .welcome-btn-group--l3 a {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+
+  .row {
+      flex-direction: column;
+  }
+
+  .kac-yemek-yenildi {
+      border: none;
+      padding: 0;
+      margin-top: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+/*.caounterCardForm {
+    background-color: #F8F9fC;
+
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+} */
+
+
+/*.caounterCardForm{
+   
+    background-color:#F8F9fC;
+  
+ }
+
+
+ .cardRowItem h2{
+    font-size: 38px;
+    color:#25373F;
+    margin-bottom: 10px;
+    padding-left: 30px;
+ }
+ .content__description{
+    font-size: 18px;
+    color:#25373FB3;
+    width:650px;
+    margin-left: 30px;
+
+
+    }
+
+    .caounterItem{
+        background-color:#fff;
+        width: 600px;
+        border-radius: 6px;
+    }*/
+    .caounterCardForm {
+      background-color: #F8F9FC;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 50px 30px;
+  }
+  
+  .cardRowItem h2 {
+      font-size: 38px;
+      color: #25373F;
+      margin-bottom: 10px;
+      padding-left: 30px;
+  }
+  
+  .content__description {
+      font-size: 18px;
+      color: #25373FB3;
+      width: 100%;
+      max-width: 650px;
+      margin-left: 30px;
+  }
+  
+  .caounterItem {
+      margin-left: 0;
+      margin-top: 30px;
+      background-color: #fff;
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+      text-align: center;
+      padding-top: 10px;
+  }
+  
+  .card--content-2__currency {
+      font-size: 26px;
+      color: #25373F;
+      text-align: center;
+      padding-top: 30px;
+      padding-bottom: 20px;
+  }
+  
+  .card--content-2__text {
+      color: rgba(37, 55, 63, 0.7);
+      padding-top: 30px;
+      font-size: 18px;
+      font-weight: 400;
+  }
+  
+  .counterCard {
+      font-size: 42px;
+      color: #25373F;
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
+  
+  .btnContetnCard {
+      text-align: center;
+  }
+  
+  .boxCounter {
+      text-align: center;
+      justify-content: center;
+      width: 200px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  .boxCounter input {
+      width: 40px;
+      text-align: center;
+  }
+  
+  .btn {
+      width: 40px;
+  }
+  
+  .btnCard {
+      margin-top: 50px;
+      width: 80%;
+      max-width: 300px;
+      background-color: red;
+      color: #fff;
+      font-size: 20px;
+      padding: 8px;
+  }
+  
+  /* Mobile Responsive Styles */
+  @media (max-width: 900px) {
+      .caounterCardForm {
+          padding-left: 15px;
+          padding-right: 15px;
+      }
+  
+      .cardRowItem h2 {
+          font-size: 28px;
+          padding-left: 0;
+          text-align: center;
+      }
+  
+      .content__description {
+          margin-left: 0;
+          width: 100%;
+          max-width: none;
+      }
+  
+      .caounterItem {
+          margin-left: 0;
+          margin-top: 30px;
+          width: 100%;
+          max-width: none;
+      }
+  
+      .card--content-2__currency {
+          font-size: 22px;
+          padding-top: 20px;
+          padding-bottom: 10px;
+      }
+  
+      .card--content-2__text {
+          padding-top: 20px;
+          font-size: 16px;
+      }
+  
+      .counterCard {
+          font-size: 36px;
+          padding-top: 20px;
+          padding-bottom: 20px;
+      }
+  
+      .boxCounter {
+          margin-left: auto;
+          margin-right: auto;
+      }
+  
+      .btnCard {
+          margin-top: 30px;
+      }
+  }
+
+
+
+
+
+
+
+
+  .boxCartText {
+    background-color: #F8F9FC;
+}
+
+.aski-card-text {
+    width: 100%;
+    height: 100px;
+    transition: .4s;
+    padding: 20px;
+    display: inline-block;
+    min-height: 265px;
+    background-image: url(../assets/askida-yemek.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+.kategori-card-baslik {
+    color: #fff;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: calc(50% - 10px);
+    margin: 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 900px) {
+    .aski-card-text {
+        height: 200px;
+        padding: 20px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card:nth-child(odd) {
+        margin-right: 0;
+    }
+
+    .card:nth-child(even) {
+        margin-left: 0;
+    }
+}
+
+
+
+
+.tableCard {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.tableCard h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 36px;
+  color: #25373F;
+  font-weight: bold;
+}
+
+.data-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.data-table th,
+.data-table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid rgb(251, 220, 220);
+}
+
+thead tr th {
+  background-color: #ccc;
+  font-size: 12px;
+  color: #25373FB3;
+  padding: 8px;
+  text-align: left;
+}
+
+.data-table th:first-child,
+.data-table td:first-child {
+  padding-left: 0;
+}
+
+.data-table th:last-child,
+.data-table td:last-child {
+  padding-right: 0;
+}
+
+.data-table tbody tr:hover {
+  background-color: #f2f2f2;
+}
+
+tbody {
+  color: #25373FB3;
+  font-size: 10px;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 900px) {
+  .tableCard {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  .data-table {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  thead tr th,
+  .data-table th,
+  .data-table td {
+    font-size: 14px;
+  }
+
+  tbody {
+    font-size: 12px;
+  }
+}
+
+
+
+
+
+
+.tableText {
+  margin-bottom: 40px;
+}
+
+.tableText h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.data-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.data-table th,
+.data-table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.data-table th:first-child,
+.data-table td:first-child {
+  padding-left: 0;
+}
+
+.data-table th:last-child,
+.data-table td:last-child {
+  padding-right: 0;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 900px) {
+  .tableText {
+    margin-bottom: 20px;
+  }
+
+  .data-table th,
+  .data-table td {
+    padding: 6px;
+    font-size: 12px;
+  }
+
+  .data-table th:first-child,
+  .data-table td:first-child {
+    padding-left: 8px;
+  }
+
+  .data-table th:last-child,
+  .data-table td:last-child {
+    padding-right: 8px;
+  }
+}
+
+
+
+
+
+  
+
+
+.bodyFoter {
+  background-color: #F8F9fC;
+  text-align: center;
+  padding: 20px; /* Add some padding to the section for better mobile display */
+}
+
+.bodyFoter h2 {
+  font-size: 38px;
+  font-weight: 800;
+}
+
+.bodyFoter p {
+  width: 100%; 
+  max-width: 500px; 
+  margin: 10px auto; 
+  font-size: 16px;
+  color: #25373F;
+  text-align: left; 
+}
+
+
+@media (max-width: 900px) {
+  .bodyFoter {
+    padding: 10px; 
+  }
+
+  .bodyFoter p {
+    font-size: 14px; 
+  }
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+  footer{
+    background-color:#262729;
+    width:100%;
+    height: 50vh;
+  }
+  .conternirFooter{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .cardFooter{
+    margin-top: 80px;
+    display:block;
+    margin-left: 40px;
+  }
+  .cardFooter img{
+width: 200px;
+margin-bottom: 20px;
+  }
+  .cardFooter button{
+    padding: 15px 15px 15px 15px ;
+    color: #fff;
+    background-color: #FF0000;
+    border-radius:10px;
+  }
+  .cardBodyFoter{
+    margin-top: 80px;
+    margin-right: 50px;
+    display: flex;
+    gap:20px;
+  }
+  .cardBodyFoter a{
+    color:#fff;
+    text-decoration: none;
+  }
+.footerMenuCard{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color:#fff;
+}
+
+@media only screen and (max-width: 900px) {
+  .conternirFooter {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cardFooter,
+  .cardBodyFoter {
+    margin: 0;
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,1061 @@
+
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul li{
+  list-style: none;
+}
+
+
+.button {
+  border-radius: 50px;
+
+}
+
+.content {
+  width: 100%;
+  height: 100vh;
+ 
+}
+
+nav {
+
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+
+}
+
+.hero {
+  display: flex;
+  background-color: #ddd6d6;
+  justify-content: space-between;
+  align-items: center;
+
+
+
+}
+
+.hero-card {
+  display: flex;
+  padding: 5px;
+  text-align: center;
+  align-items: center;
+  gap: 15px;
+
+  width: 100%;
+
+}
+
+.basket {
+  display: flex;
+  gap: 15px;
+
+}
+
+.heroImg {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  box-shadow: 60px 5px 5px 5px #f2eded;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  padding-top: 30px;
+  width: 100%;
+  position: fixed;
+
+}
+.mobile-show{
+  width: 150px;
+}
+.heroImg ul {
+  display: flex;
+  gap: 20px;
+  flex-wrap: nowrap;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  text-align: center;
+  list-style: none;
+
+
+}
+
+.heroImg ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+  font: 15px;
+  border-right: 1px solid rgb(6, 4, 4);
+  padding-right: 20px;
+
+
+}
+.IconLeft {
+  display: flex;
+  gap: 100px;
+}
+.IconLeft i{
+text-align: center;
+  padding-top: 0px;
+  font-size: 40px;
+  cursor: pointer;
+  display: none;
+
+}
+
+.vertical-header {
+  display: none;
+  position: fixed;
+  top: 10;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 1000;
+
+
+  
+
+}
+
+.vertical-header ul {
+  list-style: none;
+  padding: 5px;
+  width: 100%;
+ border-top: 1px solid;
+
+
+ 
+  
+}
+
+.vertical-header ul li {
+  margin-bottom: 5px;
+  padding-bottom: 80px
+  
+  
+
+}
+.vertical-header ul li a{
+  color: #262729;
+  font-size: 16px;
+  text-decoration: none ;
+
+ 
+}
+
+.fa-xmark{
+position: absolute;
+top: 10px;
+right: 10px;
+border-left: 1px solid;
+
+font-size: 40px;
+
+}
+
+.vertical-button{
+  position: relative;
+padding-top: 450px;
+padding-right: 100px;
+
+  display: flex;
+  gap: 20px;
+
+}
+.vertical-button button{
+padding: 10px;
+border-radius:25px;
+width: 100px;
+}
+
+
+
+
+
+@media (max-width: 900px) {
+  .IconLeft i  {
+    display: block;
+    
+  }
+
+  .heroImg ul {
+    display: none;
+  }
+
+  .vertical-header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+
+  .vertical-header ul li{
+    border-bottom:1px solid #efe9e9;
+    
+  }
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card-slider {
+  height: 100vh;
+}
+
+.card-slider .container {
+  width: 100%;
+}
+
+.card-slider .carousel-inner .item img {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+@media (max-width: 900px) {
+  .card-slider .carousel-inner .item img {
+    height: auto;
+  }
+}
+
+
+
+
+
+
+.basin {
+  display: flex;
+  justify-content: center;
+}
+
+.protein-adv-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.good_health {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.sliderHeader {
+  text-align: center;
+  color: rgb(25, 24, 24);
+  margin: 10px;
+}
+
+.good_health img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Media query for screens with a maximum width of 767px (smartphones) */
+@media (max-width: 900px) {
+  .basin {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sliderHeader {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .good_health {
+    margin: 10px 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.main {
+  width: 100vh;
+  height: auto;
+  overflow: hidden;
+
+}
+
+.contetBody {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardHead {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  font-size: 31px;
+
+}
+
+.description {
+
+  margin-top: 15px;
+  line-height: 24px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #605f5e;
+  width: 90%;
+  margin-bottom: 20px;
+  padding-left: 350px;
+
+
+
+}
+
+.protein-adv-header {
+
+  justify-content: center;
+}
+
+.colDıv {
+  padding-left: 50px;
+
+
+}
+
+.cardBackground {
+  background-image: url('https://www.mealbox.com.tr/uploads/homepage/sya-home-vitrin.gif?v=6');
+  background-size: cover;
+  border-radius: 20px;
+  width: 800px;
+  display: flex;
+
+}
+
+.tableCard {
+  display: -webkit-flex;
+  width: 900px;
+  height: 200px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+
+
+
+}
+
+.cardH2 {
+  text-align: right;
+  padding: 40px 10px 10px 0px;
+  padding-right: 100px;
+
+}
+
+.cardH2 a {
+  font-size: 19px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+
+}
+
+.colDıv p {
+  font-size: 13px;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  margin-left: 400px;
+  text-align: right;
+
+}
+
+.firstSectio {
+  display: block;
+}
+
+.btnMain {
+  width: 142px;
+  height: 50px;
+  margin: 51px 10px 10px;
+  background-color: rgb(137, 165, 72);
+
+
+}
+
+.btnMain p {
+  padding-top: 10px;
+
+}
+
+.btnContainer {
+  display: none;
+}
+
+.btneMain {
+  width: 142px;
+  height: 50px;
+}
+
+.cardBackgroundTo {
+  background-image: url('https://www.mealbox.com.tr/uploads/homepage/banner-evdekal-img.jpg?v=6');
+  background-size: 910px;
+  border-radius: 20px;
+  background-position: center;
+  width: 800px;
+  display: flex;
+}
+
+.cardBackgroundRes {
+  background-image: url('https://www.mealbox.com.tr/uploads/homepage/yatay-bar-catering.jpg?v=6');
+  background-size: 910px;
+  border-radius: 20px;
+  background-position: center;
+
+}
+
+.cardH3 {
+  text-align: right;
+  padding: 40px 10px 10px 0px;
+}
+
+.cardH3 a {
+  font-size: 19px;
+  color: black;
+  font-weight: 500;
+}
+
+.cardItem {
+  color: black !important;
+}
+
+.cardBackgroundTry {
+  background-image: url('https://www.mealbox.com.tr/uploads/homepage/askida-yemek-home-banner.jpg?v=1');
+  background-size: 910px;
+  border-radius: 20px;
+  background-position: center;
+}*/
+
+
+
+
+.main {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.contetBody {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardHead {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 24px;
+ 
+}
+
+
+.description {
+  margin-top: 15px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #605f5e;
+ width: 450px;
+ margin-left: 450px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+
+}
+
+.protein-adv-header {
+  justify-content: center;
+}
+
+.colDıv {
+  padding-left: 10px;
+}
+
+.cardBackground {
+  background-image: url('https://www.mealbox.com.tr/uploads/homepage/sya-home-vitrin.gif?v=6');
+  background-size: cover;
+  border-radius: 20px;
+  width: 60%;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tableCard {
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.cardH2 {
+  text-align: right;
+  padding: 10px;
+  padding-right: 20px;
+}
+
+.cardH2 a {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+
+.colDıv p {
+  font-size: 10px;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  text-align: right;
+  padding-right: 20px;
+  text-align: center;
+ justify-content: start;
+}
+
+.firstSectio {
+  display: block;
+}
+
+.btnMain {
+  width: 120px;
+  height: 40px;
+  margin: 10px;
+  background-color: rgb(137, 165, 72);
+}
+
+.btnMain p {
+  padding-top: 10px;
+}
+
+.btnContainer {
+  display: none;
+}
+
+.btneMain {
+  width: 120px;
+  height: 40px;
+}
+
+.cardBackgroundTo {
+  background-image: url('https://www.mealbox.com.tr/uploads/homepage/banner-evdekal-img.jpg?v=6');
+  background-size: cover;
+  border-radius: 20px;
+  background-position: center;
+  width: 60%;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cardBackgroundRes {
+  background-image: url('https://www.mealbox.com.tr/uploads/homepage/yatay-bar-catering.jpg?v=6');
+  background-size: cover;
+  border-radius: 20px;
+  background-position: center;
+  width: 600%;
+  height: 200px;
+  margin-left: 150px;
+}
+
+.cardH3 {
+  text-align: right;
+  padding: 10px;
+}
+
+.cardH3 a {
+  font-size: 16px;
+  color: black;
+  font-weight: 500;
+}
+
+.cardItem {
+  color: black !important;
+}
+
+.cardBackgroundTry {
+  background-image: url('https://www.mealbox.com.tr/uploads/homepage/askida-yemek-home-banner.jpg?v=1');
+  background-size: cover;
+  border-radius: 20px;
+  background-position: center;
+  width: 60%;
+  height: 200px;
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+  .description {
+    padding-left: 0;
+    margin-left: 0;
+    text-align: center;
+  }
+  
+  .colDıv {
+    padding-left: 0;
+  }
+  
+  .cardBackground,
+  .cardBackgroundTo,
+  .cardBackgroundRes,
+  .cardBackgroundTry {
+    width: 100%;
+    background-size: cover;
+  }
+  
+  .cardBackground {
+    background-position: center;
+    padding: 30px;
+  }
+  
+  .cardH2 a,
+  .cardH3 a {
+    font-size: 18px;
+  }
+  
+  .cardItem {
+    font-size: 12px;
+  }
+  
+  .btnMain,
+  .btneMain {
+    width: 120px;
+    height: 40px;
+    margin: 20px 5px 5px;
+  }
+  
+  .btnMain p {
+    padding-top: 5px;
+  }
+  
+  .btnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main_phone_item,
+  .main_whatsapp_item {
+    margin-right: 10px;
+  }
+  .btnMain  p{
+  display: none;
+ 
+   
+  }
+
+  .btneMain{
+
+  }
+  span{
+    display: none;
+  }
+  button{
+    display: none;
+  
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cardContentBody {
+  width: 100%;
+
+
+}
+
+.hiwHeader {
+  color: #27272f;
+  font-size: 36px;
+  justify-content: center;
+  text-align: center;
+  font-weight: 400;
+
+
+
+
+
+}
+
+/*navfill */
+.navFill {
+  display: flex;
+
+  gap: 5px;
+  font-size: 16px;
+  padding-left: 40px;
+  padding-right: 130px;
+  justify-content: space-between;
+
+
+}
+
+.navCardItem {
+  color: #605f5e;
+  padding-top: 8px;
+  font-size: 16px;
+  /* padding-left: 100px; */
+  white-space: nowrap;
+
+
+}
+
+.stepsContainer {
+  margin-top: 30px;
+  justify-content: space-between;
+  display: flex;
+  gap: 5px;
+
+
+}
+
+.containerItem {
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 60px;
+  gap: 5px;
+
+}
+
+.containerItem h3 {
+  color: #27275F;
+}
+
+.containerItem hr {
+  width: 35%;
+  justify-content: center;
+  border: 1px solid red;
+
+
+}
+
+.containerItem p {
+  color: #8D8D99;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .navFill {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .navCardItem {
+    padding: 5px;
+  }
+
+  .stepsContainer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .containerItem {
+    padding: 20px;
+  }
+
+  .containerItem hr {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+.mealBox {
+  margin-top: 30px;
+}
+
+.rowBox {
+  display: flex;
+  margin-left: 40px;
+  margin-right: 30px;
+}
+
+.whatforHeaderHescription {
+  font-size: 17px;
+  color: #8D8D99;
+  margin-top: 5px;
+}
+
+.colMd h2 {
+  display: flex;
+
+}
+
+.colMd h2 img {
+  width: 10px;
+  height: 10px;
+  margin-top: 50px;
+  color: #8D8D99;
+
+}
+
+.colMd button {
+  font-size: 16px;
+  color: #27272f;
+  padding: 10px 0px 0px;
+  border-bottom: 1px solid #212529;
+} 
+
+
+@media (max-width:900px) {
+  .mealBox {
+    margin-top: 20px; 
+  }
+
+  .rowBox {
+    flex-direction: column; 
+    margin-left: 0; 
+    margin-right: 0; 
+  }
+
+  .colMd {
+    margin-bottom: 20px; 
+  }
+
+  .colMd h2 {
+    align-items: center; 
+  }
+
+  .colMd h2 img {
+    width: 20px; 
+    height: 20px; 
+    margin-top: 0; 
+    margin-right: 10px; 
+    color: #8D8D99;
+  }
+
+  .colMd button {
+    font-size: 18px;
+    color: #27272f;
+    padding: 5px 0px 0px;
+    border-bottom: none; 
+  }
+
+  .help-collapsible-text {
+    padding: 10px; 
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+  background: #f1f2f2;
+  margin-top: 50px;
+width: 100%;
+height: 250px;
+  display: flex;
+  }
+  .cardFoter{
+padding-right: 40px;
+padding-left: 90px;
+    flex-direction: column;
+    
+  }
+  .cardFoter h2{
+font-size: 16px;
+color: #27272F;
+  }
+  .rowFooter{
+    display: flex;
+padding-top: 20px;
+  }
+.cardFoter ul li{
+  list-style: none;
+}
+
+  .cardFoter ul li a{
+    font-size: 14px;
+    color:#8B8B99;
+text-decoration: none;
+  }
+  .cardFoter hr{
+    width: 30px ;
+    border: 1px solid red;
+  }
+  .textFoterCenter i{
+    color: red;
+    padding-right: 5px;
+  }
+  .textFoterCenter a{
+    color:#8B8B99;
+    font-size: 14px;
+  }
+  
+
+
+  @media (max-width: 900px) {
+    #footer {
+      flex-direction: column; 
+      height: auto; 
+    }
+  
+    .rowFooter {
+      flex-wrap: wrap; 
+      padding-top: 10px; 
+    }
+  
+    .cardFoter {
+      padding-right: 20px; 
+      padding-left: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .cardFoter h2 {
+      font-size: 14px; 
+    }
+  
+    .cardFoter ul li a {
+      font-size: 12px; 
+    }
+  
+    .cardFoter hr {
+      width: 20px; 
+    }
+  
+    .textFoterCenter {
+      margin-top: 10px; 
+      text-align: center; 
+    }
+  
+    .textFoterCenter i {
+      padding-right: 3px; 
+    }
+  
+    .textFoterCenter a {
+      font-size: 12px; 
+    }
+  }
+  
+  
+  
+  
+  
+  
+  .modal {
+    display: none; /* Hide the modal by default */
+    position: fixed;
+    top: 0;
+    left:0;
+    margin-left: 500px;
+    margin-top: 120px;
+    width: 680px;
+    height: 300px;
+  
+  
+     /* Change the background color and opacity as desired */
+  }
+  
+  .modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff; /* Customize the modal content background */
+    padding: 20px;
+   
+   
+  }
+  .modal-content h1{
+    color: red;
+    font-size: 15px;
+    
+  
+  }
+  .modal-content p{
+    font-size: 13px;
+  }
+  .modal-content a{
+    background-color:red;
+    padding: 10px;
+    border-radius:10px;
+  
+  }
+  
+  
+  
+  .modal-content img{
+    margin-top: 20px;
+    width: 300px;
+  }
+  
+  .image-container:hover .modal {
+    display: block; /* Show the modal when the container is hovered */
+  }
+  
+  
+  

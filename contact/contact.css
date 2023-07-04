@@ -1,0 +1,1364 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul li {
+  list-style: none;
+}
+
+
+.button {
+  border-radius: 50px;
+
+}
+
+.content {
+  width: 100%;
+  height: 100vh;
+
+}
+
+nav {
+  padding-bottom: 100px;
+  position: fixed;
+  width: 100%;
+  height: 10vh;
+
+
+}
+
+.hero {
+  display: flex;
+  background-color: #ddd6d6;
+  justify-content: space-between;
+  align-items: center;
+
+
+
+}
+
+.hero-card {
+  display: flex;
+  padding: 5px;
+  text-align: center;
+  align-items: center;
+  gap: 15px;
+
+  width: 100%;
+
+}
+
+.basket {
+  display: flex;
+  gap: 15px;
+
+}
+
+.heroImg {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  box-shadow: 60px 5px 5px 5px #f2eded;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  padding-top: 30px;
+  width: 100%;
+  position: fixed;
+
+}
+
+.mobile-show {
+  width: 150px;
+}
+
+.heroImg ul {
+  display: flex;
+  gap: 20px;
+  flex-wrap: nowrap;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  text-align: center;
+  list-style: none;
+
+
+}
+
+.heroImg ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+  font: 15px;
+  border-right: 1px solid rgb(6, 4, 4);
+  padding-right: 20px;
+
+
+}
+
+.IconLeft {
+  display: flex;
+  gap: 100px;
+}
+
+.IconLeft i {
+  text-align: center;
+  padding-top: 0px;
+  font-size: 40px;
+  cursor: pointer;
+  display: none;
+
+}
+
+.vertical-header {
+  display: none;
+  position: fixed;
+  top: 10;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 1000;
+
+
+
+
+}
+
+.vertical-header ul {
+  list-style: none;
+  padding: 5px;
+  width: 100%;
+  border-top: 1px solid;
+
+
+
+
+}
+
+.vertical-header ul li {
+  margin-bottom: 5px;
+  padding-bottom: 80px
+}
+
+.vertical-header ul li a {
+  color: #262729;
+  font-size: 16px;
+  text-decoration: none;
+
+
+}
+
+.fa-xmark {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-left: 1px solid;
+
+  font-size: 40px;
+
+}
+
+.vertical-button {
+  position: relative;
+  padding-top: 450px;
+  padding-right: 100px;
+
+  display: flex;
+  gap: 20px;
+
+}
+
+.vertical-button button {
+  padding: 10px;
+  border-radius: 25px;
+  width: 100px;
+}
+
+
+
+
+
+@media (max-width: 900px) {
+  .IconLeft i {
+    display: block;
+
+  }
+
+  .heroImg ul {
+    display: none;
+  }
+
+  .vertical-header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+
+  .vertical-header ul li {
+    border-bottom: 1px solid #efe9e9;
+
+  }
+
+
+}
+
+
+
+/* nav bitiş */
+
+.main_special_bg {
+
+  background-image: url("https://mealbox.com.tr/uploads/slider/catering-desktop.jpg?v=1") !important;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 150px;
+}
+
+.main-subscriptions-container h2 {
+  color: #000000;
+  font-size: 48px;
+
+  width: 600px;
+}
+
+.main-subscriptions-container p {
+  font-size: 30px;
+  color: #8D8D99;
+
+  width: 700px;
+}
+
+.error {
+  color: red;
+}
+
+.containercard {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 60px;
+  padding-left: 60px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.rowMainBody {
+
+
+  background-color: #fcfcfc;
+  width: 300px;
+  height: 400px;
+  padding-top: 30px;
+  margin-top: 30px;
+
+
+}
+
+.rowMainBody h1 {
+  font-size: 31px;
+  color: #27272F;
+  text-align: center;
+}
+
+.rowMainBody h5 {
+  font-size: 17px;
+  color: #8B8B99;
+  text-align: center;
+}
+
+
+
+form .intupText {
+  width: 80%;
+  margin-bottom: 10px;
+  margin-left: 30px;
+
+
+}
+
+form select {
+  margin-bottom: 10px;
+  width: 80%;
+  margin-left: 30px;
+}
+
+.checkboxcard {
+
+
+  font-size: 10px;
+}
+
+.checkboxcard {
+  margin-left: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  margin-top: 10px;
+  text-align: center;
+  width: 80%;
+  background-color: #0F41CE;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 5px;
+  margin-left: 40px;
+
+}
+
+form .chexBox {
+
+  font-size: 10px !important;
+}
+
+
+form input:hover {
+  border: 1px solid rgb(145, 180, 74);
+}
+
+
+@media screen and (max-width: 767px) {
+  .containercard {
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+    padding-right: 20px;
+    padding-left: 20px;
+    align-items: center;
+    padding-bottom: 50px;
+
+  }
+
+  .main_special_bg {
+    padding-top: 50px;
+    background: none;
+  }
+
+  .main-subscriptions-container h2 {
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .main-subscriptions-container p {
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .rowMainBody {
+
+    margin-bottom: 180px;
+    width: 70%;
+    height: auto;
+    padding: 20px;
+    margin-top: 20px;
+    box-sizing: border-box;
+  }
+
+  .rowMainBody h1 {
+    font-size: 24px;
+    padding-right: 80px;
+
+  }
+
+  .rowMainBody h5 {
+    font-size: 14px;
+    padding-right: 50px;
+  }
+
+  form .intupText,
+  form select {
+    width: 80%;
+    margin-left: 0;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+
+  .button {
+    margin-top: 10px;
+    text-align: center;
+    width: 80%;
+    margin-left: 0;
+    box-sizing: border-box;
+  }
+
+  .checkboxcard {
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .checkboxcard input,
+  .checkboxcard div {
+    margin-left: 5px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.protein-description-text {
+  max-width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #8D8D99;
+  text-align: center;
+}
+
+.ItemCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* Slider konteyneri */
+.contenedor {
+  width: 100%;
+  max-width: 650px;
+  height: 400px;
+  overflow: hidden;
+  border: 2px solid aliceblue;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Slider */
+#slider {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+/* Slide resimleri */
+.slide {
+  width: 100%;
+  height: 100%;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Protein kartı */
+.proteinCard {
+  text-align: center;
+}
+
+.proteinCard h2 {
+  line-height: 36px;
+  color: #27272F;
+  font-size: 31px;
+}
+
+.proteinCard ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.proteinCard ul li {
+  font-size: 24px;
+  padding: 14px 0px;
+  color: #8D8D8D;
+}
+
+/* Mobil cihazlar için */
+@media only screen and (max-width: 900px) {
+
+  /* Başlık */
+  .protein-description-text {
+    font-size: 16px;
+  }
+
+  /* Ana kart konteyneri */
+  .ItemCard {
+    gap: 20px;
+  }
+
+  /* Slider konteyneri */
+  .contenedor {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Protein kartı */
+  .proteinCard h2 {
+    font-size: 24px;
+  }
+
+  .proteinCard ul li {
+    font-size: 20px;
+    padding: 10px 0px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* slider cardmenu*/
+.slider {
+  width: 80vh;
+  font: 100 1rem helvetica, sans-serif;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: x;
+}
+
+.slider::-webkit-scrollbar {
+  display: none;
+}
+
+.slider-track {
+  width: max-content;
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
+}
+
+.slider-item {
+  width: calc((80vw/4) - (0.5rem + 4px));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+  padding: 4.25rem 2rem;
+  scroll-snap-align: start;
+}
+
+.slider-day {
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.7);
+  padding: 1rem;
+}
+
+.slider-icon {
+  width: 5rem;
+  height: 5rem;
+  padding: 1rem;
+  filter: invert(75%);
+  border-radius: 50%;
+}
+
+.slider-temp {
+  font-size: 0.8rem;
+  display: flex;
+  gap: 0.5rem;
+  font-weight: 400;
+  padding: 0.5rem;
+}
+
+.slider-temp-high {
+  color: rgba(0, 0, 0, 0.95);
+}
+
+.slider-temp-low {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.slider-description {
+  font-weight: 900;
+  font-size: 0.7rem;
+  color: rgba(0, 0, 0, 0.7);
+  text-transform: uppercase;
+  border-top: 0.5px solid rgba(0, 0, 0, 0.25);
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.25);
+  padding: 0.75rem;
+  margin-top: 1rem;
+}
+
+.btns {
+  margin-top: 2rem;
+}
+
+.btns>button {
+  width: 3rem;
+  height: 3rem;
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  margin: 0.5rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.btns>button:hover {
+  border: 1px solid black;
+}
+
+@media (max-width: 1100px) {
+  .slider-item {
+    width: calc((80vw/3) - (0.5rem + 3px));
+  }
+}
+
+@media (max-width: 725px) {
+  .slider-item {
+    width: calc((80vw/2) - (0.5rem + 2px));
+  }
+}
+
+
+.vegan-header-text {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 31px;
+  font-size: #27272F;
+}
+
+.wrapper {
+
+  display: flex;
+
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider {
+  height: 19rem;
+  display: flex;
+  overflow: hidden;
+}
+
+.item .title {
+  font-weight: bold;
+
+}
+
+.item img {
+  height: 40rem;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.next,
+.prev {
+  font-family: monospace;
+  font-size: 5rem;
+  background: none;
+  border: 0px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: rgb(100, 100, 100, 0.5);
+}
+
+.prev {
+  transform: rotate(-180deg);
+}
+
+.next:hover {
+  text-shadow: 2px 2px 2px rgb(200, 200, 200);
+}
+
+.prev:hover {
+  text-shadow: 2px -2px 2px rgb(200, 200, 200);
+}
+
+.item {
+  flex: 1 0 25%;
+  min-height: 200px;
+  text-align: center;
+  height: auto;
+}
+
+@media (max-width: 1024px) {
+  .item {
+    flex: 1 0 33%;
+  }
+}
+
+@media (max-width: 768px) {
+  .item {
+    flex: 1 0 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  .item {
+    flex: 1 0 100%;
+  }
+}
+
+
+
+
+
+
+
+.slipMySliderr {
+  margin-top: 50px;
+}
+
+.slipHeadrCard {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.swiper-wrapper {
+  -webkit-transition-timing-function: linear !important;
+  transition-timing-function: linear !important;
+}
+
+/*     .swiper-slide {
+text-align: center;
+font-size: 18px;
+background: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+} */
+.swiper-slide {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  font-size: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 0 50px;
+
+}
+
+.slipMySliderr {
+  position: relative;
+  z-index: -10;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-slide {
+    min-width: 150px;
+    font-size: 27px;
+  }
+}
+
+
+
+
+
+
+.contetBody {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardHead {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  font-size: 31px;
+
+}
+
+.description {
+
+  margin-top: 15px;
+  line-height: 24px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #605f5e;
+  width: 90%;
+  margin-bottom: 20px;
+  padding-left: 350px;
+
+
+
+}
+
+.protein-adv-header {
+
+  justify-content: center;
+}
+
+.colDıv {
+  padding-left: 50px;
+
+
+}
+
+.cardBackground {
+  background-image: url('https://www.mealbox.com.tr/uploads/homepage/sya-home-vitrin.gif?v=6');
+  background-size: cover;
+  border-radius: 20px;
+  width: 800px;
+  display: flex;
+
+}
+
+.tableCard {
+  display: -webkit-flex;
+  width: 900px;
+  height: 200px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+
+
+
+}
+
+.cardH2 {
+  text-align: right;
+  padding: 40px 10px 10px 0px;
+  padding-right: 100px;
+
+}
+
+.cardH2 a {
+  font-size: 19px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+
+}
+
+
+.colDıv p {
+  font-size: 13px;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  margin-left: 400px;
+  text-align: right;
+
+}
+
+.firstSectio {
+  display: block;
+}
+
+.btnMain {
+  width: 142px;
+  height: 50px;
+
+  background-color: #fff;
+  color: yellowgreen;
+  text-align: center;
+  padding-top: 5px;
+  border-radius: 30px;
+
+
+}
+
+.btnMain p {
+  padding-top: 10px;
+
+}
+
+.btnContainer {
+  display: none;
+}
+
+.btneMain {
+  width: 142px;
+  height: 50px;
+}
+
+.contetItem {
+  margin-top: 30px;
+}
+
+.btneMain {
+  background-color: red;
+  color: #fff;
+  border-radius: 30px;
+  margin-right: 60px;
+}
+
+
+@media screen and (max-width: 900px) {
+  .cardBackground {
+    background-size: contain;
+    width: 80%;
+  }
+
+  .description {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .colDıv p {
+    margin-left: 0;
+    text-align: center;
+    display: none;
+  }
+
+  .colDıv a {
+    background: none;
+  }
+}
+
+
+
+
+/*bitiş*/
+
+.text-left-hazir-guenlidir {
+  margin-bottom: 10px;
+  padding-left: 60px;
+}
+
+.hazir-guenlidir-alt {
+  font-size: 15px;
+  color: #8D8D8D;
+  padding-left: 60px;
+  max-width: 900px;
+}
+
+.cardGuneAlt {
+  padding-left: 60px;
+}
+
+.cardGuneAlt img {
+  height: auto;
+  width: 100%;
+  max-width: 350px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 900px) {
+
+  .text-left-hazir-guenlidir,
+  .hazir-guenlidir-alt,
+  .cardGuneAlt {
+    padding-left: 20px;
+  }
+
+  .hazir-guenlidir-alt {
+    width: 100%;
+  }
+
+  .cardGuneAlt img {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+baslıkCard {
+  display: flex;
+  justify-content: space-between;
+
+  padding-right: 180px;
+  padding-left: 180px;
+}
+
+.hazırLeft h2 {
+  padding-left: 60px;
+  font-size: 30px;
+  color: #27272F;
+  margin-bottom: 10px;
+  display: flex;
+
+}
+
+.colHazırLeft {
+  text-align: center;
+  display: flex;
+
+}
+
+.colHazırLeft p {
+  font-size: 15px;
+  color: #8D8D8D;
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+.imgCard {
+  display: flex;
+  padding-left: 60px;
+  gap: 40px;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .baslıkCard {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+  }
+
+  .hazırLeft h2 {
+    padding-left: 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .colHazırLeft {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .colHazırLeft p {
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .imgCard {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+    gap: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+  background: #f1f2f2;
+  margin-top: 50px;
+  width: 100%;
+  height: 250px;
+  display: flex;
+}
+
+.cardFoter {
+  padding-right: 40px;
+  padding-left: 90px;
+  flex-direction: column;
+
+}
+
+.cardFoter h2 {
+  font-size: 16px;
+  color: #27272F;
+}
+
+.rowFooter {
+  display: flex;
+  padding-top: 20px;
+}
+
+.cardFoter ul li {
+  list-style: none;
+}
+
+.cardFoter ul li a {
+  font-size: 14px;
+  color: #8B8B99;
+  text-decoration: none;
+}
+
+.cardFoter hr {
+  width: 30px;
+  border: 1px solid red;
+}
+
+.textFoterCenter i {
+  color: red;
+  padding-right: 5px;
+}
+
+.textFoterCenter a {
+  color: #8B8B99;
+  font-size: 14px;
+}
+
+
+
+.page {
+  min-height: 100vh;
+  overflow-x: hidden;
+  padding-top: 2.5rem;
+  position: relative;
+  z-index: -1;
+
+
+}
+
+.containerCardPage {
+  padding: 0 2rem;
+}
+
+.swiper-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 0 4rem;
+  }
+
+}
+
+.headerPage p {
+  font-size: 20px;
+  color: #8D8D99;
+  text-align: center;
+  background-color: red;
+
+}
+
+.headerPage h1 {
+
+  text-align: center;
+  margin: 0;
+  font-size: 3rem;
+
+}
+
+.cardPage {
+  border: 1px solid #333;
+  max-width: 250px;
+  border-radius: 3px;
+  margin: 0 auto;
+  transition: box-shadow 0.25s;
+  transition-timing-function: ease-in-out;
+  transform: scale(0.94);
+  height: 333px;
+
+
+
+}
+
+.card-text-content-Page {
+  padding: 0 0.5rem;
+}
+
+.img-wrapper img {
+  display: block;
+  width: 200px;
+  height: auto;
+  background-color: #eee;
+}
+
+.card-text-content-Page li {
+  border-bottom: 1px solid;
+}
+
+.swiper-slide-page {
+  width: 200px;
+  background-color: #ccc;
+
+}
+
+.swiper-container-page {
+  padding-bottom: 1rem;
+}
+
+.cards-slider-page {
+  padding-top: 2.5rem;
+}
+
+.swiper-slide-page {
+  transform: scale(.94);
+  transition: transform .25s;
+  animation: animate 25s linear infinite;
+}
+
+.swiper-slide-page {
+  transform: scale(1);
+}
+
+.swiper-slide-active .cardPage {
+  box-shadow: 0 13px 35px -16px rgb(0 0 0 / 50%);
+}
+
+.read-more {
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #333;
+  display: inline-block;
+  padding: .5rem 1rem;
+  border-radius: 3px;
+}
+
+
+@keyframes animate {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(-1800px, 0, 0);
+  }
+}
+
+@media (max-width: 900px) {
+  #footer {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .rowFooter {
+    flex-wrap: wrap;
+    padding-top: 10px;
+  }
+
+  .cardFoter {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .cardFoter h2 {
+    font-size: 14px;
+  }
+
+  .cardFoter ul li a {
+    font-size: 12px;
+  }
+
+  .cardFoter hr {
+    width: 20px;
+  }
+
+  .textFoterCenter {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .textFoterCenter i {
+    padding-right: 3px;
+  }
+
+  .textFoterCenter a {
+    font-size: 12px;
+  }
+}
+
+
+
+
+
+
+
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-left: 500px;
+  margin-top: 120px;
+  width: 680px;
+  height: 300px;
+
+
+
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+
+
+
+}
+
+.modal-content h1 {
+  color: red;
+  font-size: 15px;
+
+
+}
+
+.modal-content p {
+  font-size: 13px;
+}
+
+.modal-content a {
+  background-color: red;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+
+
+.modal-content img {
+  margin-top: 20px;
+  width: 300px;
+}
+
+.image-container:hover .modal {
+  display: block;
+}

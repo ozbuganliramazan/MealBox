@@ -193,11 +193,7 @@ nav {
     display: none;
   }
 
-  .vertical-header {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-  }
+  
 
   .vertical-header ul li {
     border-bottom: 1px solid #efe9e9;

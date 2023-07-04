@@ -62,11 +62,6 @@ form.addEventListener('submit', function(event) {
 
 
 
-
-
-
-
-
 document.querySelector('.IconLeft .fa-sharp').addEventListener('click', function () {
   document.querySelector('.vertical-header').style.display = 'flex';
   

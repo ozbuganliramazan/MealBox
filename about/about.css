@@ -242,7 +242,7 @@ nav {
 @media (max-width: 900px) {
   .card-slider .carousel-inner .item img {
     height: auto;
-    
+
   }
 }
 
@@ -750,7 +750,7 @@ wee-slider {
 
 .evdekal-fiyat span {
   font-size: 25px;
-  
+
 }
 
 .evdekal-icerik .baslik {
@@ -928,12 +928,12 @@ wee-slider {
   .slipMySliderr {
     padding-top: 0;
   }
-  
+
   .swiper {
     width: 100%;
     height: auto;
   }
-  
+
   .swiper-slide {
     width: 100%;
     padding: 5px;
@@ -943,7 +943,7 @@ wee-slider {
 
 
 
-.cardSelfcontent ul li{
+.cardSelfcontent ul li {
   border-bottom: 1px solid #8D8D8D;
   width: 80%;
   margin-left: 30px;
@@ -964,7 +964,7 @@ wee-slider {
 .img-card {
   flex: 0 0 50%;
   max-width: 50%;
- 
+
 }
 
 .img-card img {
@@ -982,9 +982,11 @@ wee-slider {
   .rowItem {
     flex-direction: column-reverse;
   }
-.container-card{
-flex-direction: column;
-}
+
+  .container-card {
+    flex-direction: column;
+  }
+
   .img-card,
   .cardItemSelf {
     flex: 0 0 100%;
@@ -1029,7 +1031,7 @@ flex-direction: column;
 
 .cardFoter ul li {
   list-style: none;
-  
+
 }
 
 .cardFoter ul li a {
@@ -1054,48 +1056,48 @@ flex-direction: column;
 }
 
 
- 
+
 
 @media (max-width: 900px) {
   #footer {
-    flex-direction: column; 
-    height: auto; 
+    flex-direction: column;
+    height: auto;
   }
 
   .rowFooter {
-    flex-wrap: wrap; 
-    padding-top: 10px; 
+    flex-wrap: wrap;
+    padding-top: 10px;
   }
 
   .cardFoter {
-    padding-right: 20px; 
+    padding-right: 20px;
     padding-left: 20px;
     margin-bottom: 20px;
   }
 
   .cardFoter h2 {
-    font-size: 14px; 
+    font-size: 14px;
   }
 
   .cardFoter ul li a {
-    font-size: 12px; 
+    font-size: 12px;
   }
 
   .cardFoter hr {
-    width: 20px; 
+    width: 20px;
   }
 
   .textFoterCenter {
-    margin-top: 10px; 
-    text-align: center; 
+    margin-top: 10px;
+    text-align: center;
   }
 
   .textFoterCenter i {
-    padding-right: 3px; 
+    padding-right: 3px;
   }
 
   .textFoterCenter a {
-    font-size: 12px; 
+    font-size: 12px;
   }
 }
 
@@ -1189,11 +1191,12 @@ flex-direction: column;
 
   #nasil_calisir ul li {
     width: auto;
-    
-   
+
+
   }
-  #nasil_calisir{
-   padding-left: 0;
+
+  #nasil_calisir {
+    padding-left: 0;
   }
 
   .about-mealbox-textsLeft {
@@ -1250,7 +1253,7 @@ flex-direction: column;
 
 
 
-  
+
 .text-left-hazir-guenlidir {
   margin-bottom: 10px;
   padding-left: 60px;
@@ -1275,6 +1278,7 @@ flex-direction: column;
 }
 
 @media (max-width: 900px) {
+
   .text-left-hazir-guenlidir,
   .hazir-guenlidir-alt,
   .cardGuneAlt {
@@ -1286,7 +1290,7 @@ flex-direction: column;
   }
 
   .cardGuneAlt img {
-   width: 100%;
+    width: 100%;
   }
 }
 
@@ -1379,10 +1383,10 @@ flex-direction: column;
 
 
 .modal {
-  display: none; 
+  display: none;
   position: fixed;
   top: 0;
-  left:0;
+  left: 0;
   margin-left: 500px;
   margin-top: 120px;
   width: 680px;
@@ -1396,36 +1400,38 @@ flex-direction: column;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #fff; 
+  background-color: #fff;
   padding: 20px;
- 
- 
+
+
 }
-.modal-content h1{
+
+.modal-content h1 {
   color: red;
   font-size: 15px;
-  
+
 
 }
-.modal-content p{
+
+.modal-content p {
   font-size: 13px;
 }
-.modal-content a{
-  background-color:red;
+
+.modal-content a {
+  background-color: red;
   padding: 10px;
-  border-radius:10px;
+  border-radius: 10px;
 
 }
 
 
 
-.modal-content img{
+.modal-content img {
   margin-top: 20px;
   width: 300px;
 }
 
 .image-container:hover .modal {
-  display: block; /* Show the modal when the container is hovered */
+  display: block;
+  /* Show the modal when the container is hovered */
 }
-
-

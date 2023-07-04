@@ -274,7 +274,6 @@ nav {
   height: auto;
 }
 
-/* Media query for screens with a maximum width of 767px (smartphones) */
 @media (max-width: 900px) {
   .basin {
     flex-direction: column;
@@ -522,21 +521,6 @@ nav {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .cardContentBody {
   width: 100%;
 
@@ -556,7 +540,7 @@ nav {
 
 }
 
-/*navfill */
+
 .navFill {
   display: flex;
 
@@ -573,7 +557,6 @@ nav {
   color: #605f5e;
   padding-top: 8px;
   font-size: 16px;
-  /* padding-left: 100px; */
   white-space: nowrap;
 
 
@@ -723,16 +706,6 @@ nav {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
 #footer {
   background: #f1f2f2;
   margin-top: 50px;
@@ -835,7 +808,7 @@ nav {
 
 .modal {
   display: none;
-  /* Hide the modal by default */
+
   position: fixed;
   top: 0;
   left: 0;
@@ -845,7 +818,6 @@ nav {
   height: 300px;
 
 
-  /* Change the background color and opacity as desired */
 }
 
 .modal-content {
@@ -854,7 +826,6 @@ nav {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #fff;
-  /* Customize the modal content background */
   padding: 20px;
 
 
@@ -887,5 +858,5 @@ nav {
 
 .image-container:hover .modal {
   display: block;
-  /* Show the modal when the container is hovered */
+ 
 }

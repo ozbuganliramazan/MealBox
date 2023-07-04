@@ -203,10 +203,6 @@ nav {
 
 }
 
-
-
-/* nav bitiş */
-
 .main_special_bg {
 
   background-image: url("https://mealbox.com.tr/uploads/slider/catering-desktop.jpg?v=1") !important;
@@ -721,14 +717,6 @@ form input:hover {
   transition-timing-function: linear !important;
 }
 
-/*     .swiper-slide {
-text-align: center;
-font-size: 18px;
-background: #fff;
-display: flex;
-justify-content: center;
-align-items: center;
-} */
 .swiper-slide {
   width: 200px;
   height: 200px;
@@ -739,6 +727,7 @@ align-items: center;
   align-items: center;
   overflow: hidden;
   padding: 0 50px;
+  animation: animate 25s linear infinite;
 
 }
 
@@ -960,21 +949,7 @@ align-items: center;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-baslıkCard {
+.baslıkCard {
   display: flex;
   justify-content: space-between;
 
@@ -1043,34 +1018,6 @@ baslıkCard {
     gap: 20px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #footer {
   background: #f1f2f2;

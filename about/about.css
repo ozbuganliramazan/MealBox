@@ -193,7 +193,7 @@ nav {
     display: none;
   }
 
-  
+
 
   .vertical-header ul li {
     border-bottom: 1px solid #efe9e9;
@@ -202,19 +202,6 @@ nav {
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-/* nav bitiş*/
-
 
 .heroImg .mobile-show {
   width: 138px;
@@ -299,14 +286,6 @@ nav {
   justify-content: center;
 
 }
-
-
-
-
-
-
-
-
 
 .colPaket {
   background-color: #d7d5d5;
@@ -464,38 +443,6 @@ wee-slider {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* slider bitiş*/
-
-
-
 .tedarikci-img {
   width: 50%;
 }
@@ -539,7 +486,7 @@ wee-slider {
 
 
 
-/* Next-Left < > Button */
+
 @media(min-width: 699px) {
   .referanslarimiz {
     padding-top: 50px;
@@ -618,7 +565,7 @@ wee-slider {
 
 }
 
-/* END :: Next-Left < > Button */
+
 .owl-dots {
   display: none;
 }
@@ -877,7 +824,7 @@ wee-slider {
 
 
 
-/* carda menu bitiş */
+
 
 .slipMySliderr {
   padding-top: 3100px;
@@ -915,7 +862,7 @@ wee-slider {
   padding: 10px;
 }
 
-/* sponsor slider bitiş*/
+
 
 
 
@@ -992,12 +939,6 @@ wee-slider {
 }
 
 
-
-
-
-
-
-/* foter*/
 
 #footer {
   background: #f1f2f2;
@@ -1099,21 +1040,6 @@ wee-slider {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* içkısım */
-
 #about-mailbox-section {
   margin-top: 10px;
 }
@@ -1167,9 +1093,6 @@ wee-slider {
   font-size: 13px;
 }
 
-
-
-/* Mobil uyumlu stil */
 @media (max-width: 900px) {
   .containerRowMailbox {
     flex-direction: column;
@@ -1219,37 +1142,6 @@ wee-slider {
 }
 
 
-
-
-
-
-
-
-
-
-
-/* bitiş */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .text-left-hazir-guenlidir {
   margin-bottom: 10px;
   padding-left: 60px;
@@ -1289,13 +1181,6 @@ wee-slider {
     width: 100%;
   }
 }
-
-
-
-
-
-
-
 
 
 .baslıkCard {
@@ -1368,16 +1253,6 @@ wee-slider {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
 .modal {
   display: none;
   position: fixed;
@@ -1429,5 +1304,5 @@ wee-slider {
 
 .image-container:hover .modal {
   display: block;
-  /* Show the modal when the container is hovered */
+
 }

@@ -1029,14 +1029,7 @@ width: 200px;
   -webkit-transition-timing-function:linear!important;
   transition-timing-function:linear!important; 
 }
-/*     .swiper-slide {
-text-align: center;
-font-size: 18px;
-background: #fff;
-display: flex;
-justify-content: center;
-align-items: center;
-} */
+
 .swiper-slide {
   width: 100px;
   height: 100px;
@@ -1047,7 +1040,7 @@ align-items: center;
   align-items: center;
   overflow: hidden;
   padding: 0 0px;
-  animation: animate 5s linear infinite;
+  animation: animate 25s linear infinite;
 }
 .slipMySliderr{
   position: relative;
